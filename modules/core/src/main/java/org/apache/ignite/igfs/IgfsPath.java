@@ -63,7 +63,7 @@ public final class IgfsPath implements Comparable<IgfsPath>, Externalizable, Bin
     private String path;
 
     /** Root path. */
-    public static final IgfsPath ROOT = new IgfsPath();
+    public static final IgfsPath ROOT = new IgfsPath(SLASH);
 
     /**
      * Constructs default root path.

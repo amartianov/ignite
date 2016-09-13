@@ -1519,7 +1519,7 @@ public abstract class IgfsDualAbstractSelfTest extends IgfsAbstractSelfTest {
             IgfsFile f1 = null;
 
             for (IgfsFile fi : listing) {
-                if (F.eq(f1.path(), p)) {
+                if (F.eq(fi.path(), p)) {
                     f1 = fi;
 
                     break;
